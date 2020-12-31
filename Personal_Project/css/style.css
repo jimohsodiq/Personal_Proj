@@ -1,0 +1,107 @@
+body {
+    font-family: "Open-Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 95%;
+}
+
+
+/*COMMON CLASSES*/
+
+.primary-text {
+    color: #8a8a8a;
+}
+
+.primary-background {
+    background: #8a8a8a;
+}
+
+
+/*HEADER*/
+
+#main-header {
+    border-bottom: 1px solid #8a8a8a;
+}
+
+
+/*NAVBAR*/
+
+#navbar {
+    text-transform: uppercase;
+}
+
+#navbar li {
+    display: inline;
+    padding-right: 50px;
+    list-style: none;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li.current a,
+#navbar a:hover {
+    color: #8a8a8a;
+    border-bottom: 3px solid #8a8a8a;
+    padding-bottom: 3px;
+}
+
+#company {
+    margin-left: 20px;
+}
+
+#company h4,
+p {
+    list-style: none;
+}
+
+
+/*FOOTER*/
+
+#main-footer {
+    background: #8a8a8a;
+    color: rgb(0, 0, 0);
+}
+
+
+/*FEATURES1*/
+
+#features-1 {
+    background: rgb(167, 167, 167);
+    height: 550px;
+}
+
+#features-1 p {
+    padding-top: -20px;
+}
+
+#features-1 form input {
+    width: 400px;
+    color: black;
+    margin: 0;
+    height: 25px;
+    border-radius: 90px;
+    border: 0px;
+    border-style: hidden;
+    padding-left: 20px;
+}
+
+#features-1 form button {
+    width: 100px;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 90px;
+    background: rgb(214, 212, 212);
+    color: black;
+}
+
+#features-1 input {
+    padding-right: 50px;
+}
